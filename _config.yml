@@ -26,7 +26,7 @@ rss:
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
   #about: /about
   archives: /archives
   tags: /tags
@@ -73,7 +73,8 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
+  host: 
+  host: fonts.lug.ustc.edu.cn
 
   # Global font settings used on <body> element.
   global:
@@ -158,8 +159,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
-  #position: right
+  #position: left
+  position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
@@ -234,7 +235,7 @@ mathjax:
 #duoshuo_shortname:
 
 # Disqus
-#disqus_shortname:
+disqus_shortname: tucao
 
 # Baidu Share
 # Available value:
